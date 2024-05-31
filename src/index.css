@@ -1,0 +1,51 @@
+.Card{
+    border: 1px solid #020024;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 10px 10px 1px #09054a;
+    box-sizing: border-box;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+}
+.devName{
+    text-shadow: 1px 1px #020024;
+}
+.Card .card-img{
+    border-radius: 50%;
+    max-width: 256px;
+}
+.card-container{
+
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.button{
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #f56217;
+}
+
+.wellcome-message{
+    padding: 2px 2px;
+    border: 2px solid #051937;
+    text-align: center;
+    background-color: #00C9A7;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size :bold;
+}
+
+.login-prompt{
+    padding: 2px 2px;
+    border: 2px solid #051937;
+    text-align: center;
+    background-color: #FF8066;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size :bold;
+}

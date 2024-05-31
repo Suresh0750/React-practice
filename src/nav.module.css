@@ -1,0 +1,27 @@
+.logo{
+    color: #f7f7f9;
+}
+.navContainer{
+    background-color:#1515a3 ;
+    /* position:static; */
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20em;
+    color: #f7f7f9;
+}
+
+.navBar li{
+    /* text-decoration: none; */
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
